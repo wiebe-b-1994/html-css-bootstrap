@@ -1,0 +1,18 @@
+/* myStyle.css */
+
+h1 {
+    font: arial;
+    background-color: green;
+    color: grey;
+    border: black, continuous, 2px;
+    padding: top 20px;
+}
+
+
+h3 {
+    font: arial;
+    background-color: blue;
+    color: grey;
+    border: black, continuous, 2px;
+    padding: top 20px;
+}
