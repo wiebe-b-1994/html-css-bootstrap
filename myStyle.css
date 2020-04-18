@@ -1,18 +1,64 @@
-/* myStyle.css */
+            .fietswinkel{
+                padding: 10pt;
+            }
+            
+            h1{
+                font: arial;
+            }
 
-h1 {
-    font: arial;
-    background-color: red;
-    color: grey;
-    border: black, continuous, 2px;
-    padding: top 20px;
-}
+            h2{
+                color: grey;
+                padding: 20pt;
+                font: arial;
+                font-size: 50px;
+                background-color: pink;
+                border: black solid 0.5pt;
+            }
+
+            .columns{
+                float: left;
+                width: 30%;
+                padding: 10px;
+            }
+
+            .rows{
+                width: 100%;
+            }
+
+            .row2{
+                width: 100%;
+                background-color: darkslateblue;
+            }
+
+            .rows:after{
+                content:"";
+                display:table;
+                clear:both;
+            }
+
+            .fietsen{
+                border: black solid 0.5pt;
+                padding: 10px;
+                margin: 5px;
+            }
 
 
-h3 {
-    font: arial;
-    background-color: blue;
-    color: grey;
-    border: black, continuous, 2px;
-    padding: top 20px;
-}
+            img{
+                width: 80%;
+                height: auto;
+                text-align: center;
+            }
+
+            li{
+                font: arial;
+                text-align: left;
+                margin-bottom: 10pt;
+            }
+
+            p.prices{
+                font-size: 30px;
+                font-weight: bolder;
+                color: black;
+                font: arial;
+                margin: unset;
+            }
